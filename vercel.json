@@ -1,0 +1,1 @@
+{"version": 2, "builds": [{"src": "fast_mcp/server_production.py", "use": "@vercel/python"}], "routes": [{"src": "/(.*)", "dest": "fast_mcp/server_production.py"}]}
